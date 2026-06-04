@@ -1,13 +1,3 @@
-const avatars = [
-  { initials: 'AK', bg: '#fce4ec', color: '#c2185b' },
-  { initials: 'NR', bg: '#e8f5e9', color: '#2e7d32' },
-  { initials: 'SP', bg: '#e3f2fd', color: '#1565c0' },
-  { initials: 'YM', bg: '#fff3e0', color: '#e65100' },
-  { initials: 'JT', bg: '#f3e5f5', color: '#6a1b9a' },
-  { initials: 'LB', bg: '#e0f2f1', color: '#004d40' },
-  { initials: '+3', bg: '#fafafa', color: '#333' },
-];
-
 const circles = [
   { size: 120, src: 'https://randomuser.me/api/portraits/men/32.jpg' },
   { size: 120, src: 'https://randomuser.me/api/portraits/men/45.jpg' },
@@ -77,19 +67,6 @@ export default function Hero() {
           We are a team of strategists, designers, communicators, researchers. Together, we believe that progress only happens when you refuse to play things safe.
         </p>
 
-        {/* Avatar stack */}
-        {/* <div style={{ display: 'flex', alignItems: 'center', marginBottom: 24, justifyContent: 'center' }}>
-          {avatars.map((a, i) => (
-            <div key={i} style={{
-              width: 52, height: 52, borderRadius: '50%',
-              border: '3px solid white',
-              background: a.bg, color: a.color,
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontFamily: "'Syne',sans-serif", fontWeight: 700, fontSize: 12,
-              marginLeft: i === 0 ? 0 : -12, flexShrink: 0,
-            }}>{a.initials}</div>
-          ))}
-        </div> */}
 
         {/* Person circles - staggered layout */}
         <div style={{ position: 'relative', height: 200, marginTop: 20 }}>
