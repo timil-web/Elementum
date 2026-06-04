@@ -52,7 +52,7 @@ export default function Navbar() {
 
   return (
     <nav style={styles.nav}>
-      <a href="#" style={styles.logo}>Elementum</a>
+      <a href="/" style={styles.logo}>Elementum</a>
 
       {!isMobile && (
         <ul style={styles.links}>

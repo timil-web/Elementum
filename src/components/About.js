@@ -44,7 +44,7 @@ export default function About() {
         <p style={{ fontSize: 14, color: '#6b7280', lineHeight: 1.75, marginBottom: 24, maxWidth: 360 }}>
           We are a team of strategists, designers communicators, researchers. Togeather, we belive that progress only happens when you refuse to play things safe.
         </p>
-        <a href="#" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 500, color: '#0a0a0a', textDecoration: 'none', borderBottom: '1px solid #0a0a0a', paddingBottom: 2 }}>
+        <a href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 500, color: '#0a0a0a', textDecoration: 'none', borderBottom: '1px solid #0a0a0a', paddingBottom: 2 }}>
           Read more &nbsp;————→
         </a>
       </div>
