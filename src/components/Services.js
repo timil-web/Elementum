@@ -68,7 +68,7 @@ export default function Services() {
         <p style={{ fontSize: 14, color: '#6b7280', lineHeight: 1.75, marginBottom: 24, maxWidth: 360 }}>
           We add a layer of fearless insights and action that allows change makers to accelerate their progress in areas such as brand, design digital, comms and social research.
         </p>
-        <button style={{ display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 500, color: '#0a0a0a', textDecoration: 'none', borderBottom: '1px solid #0a0a0a', paddingBottom: 2 }}>
+        <button style={{ background: 'transparent', border: 'none',display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 500, color: '#0a0a0a', textDecoration: 'none', borderBottom: '1px solid #0a0a0a', paddingBottom: 2 }}>
           Read more &nbsp;————→
         </button>
       </div>

@@ -44,19 +44,17 @@ export default function About() {
         <p style={{ fontSize: 14, color: '#6b7280', lineHeight: 1.75, marginBottom: 24, maxWidth: 360 }}>
           We are a team of strategists, designers communicators, researchers. Togeather, we belive that progress only happens when you refuse to play things safe.
         </p>
-        <button style={{ display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 500, color: '#0a0a0a', textDecoration: 'none', borderBottom: '1px solid #0a0a0a', paddingBottom: 2 }}>
+        <button style={{ background: 'transparent', border: 'none',display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 14, fontWeight: 500, color: '#0a0a0a', textDecoration: 'none', borderBottom: '1px solid #0a0a0a', paddingBottom: 2 }}>
           Read more &nbsp;————→
         </button>
       </div>
 
       {/* RIGHT: circular image + red triangle + grey rectangle outline */}
       <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', zIndex: 1, minHeight: 320 }}>
-        {/* grey rectangle outline - top right */}
-        {/* <div style={{ position: 'absolute', top: 0, right: 0, width: 130, height: 110, border: '2px solid #9ca3af', borderRadius: 4, transform: 'rotate(8deg)', zIndex: 0 }} /> */}
-
-        {/* red triangle - overlapping top right of circle */}
-        <div style={{ position: 'absolute', top: 35, right: 80, zIndex: 2 }}>
-          <svg width="90" height="15" viewBox="0 0 70 70" fill="none" style={{ transform: 'rotate(10deg)' }}>
+        
+        {/* red square - overlapping top right of circle */}
+        <div style={{ position: 'absolute', top: 55, right: 80, zIndex: 2 }}>
+          <svg width="90" height="90" viewBox="0 0 70 70" fill="none" style={{ transform: 'rotate(10deg)' }}>
             <rect x="0" y="0" width="70" height="70" fill="#ff7171" />
           </svg>
         </div>

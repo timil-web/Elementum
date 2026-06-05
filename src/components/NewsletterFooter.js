@@ -133,19 +133,19 @@ export default function NewsletterFooter() {
           <div style={{ fontFamily: "Gerbil", fontSize: 16, fontWeight: 800, marginBottom: 16 }}>Company</div>
           {['Home', 'Studio', 'Service', 'Blog'].map(l => (
             <div key={l} style={{ marginBottom: 10 }}>
-              <button style={{ fontSize: 13, color: '#4b5563', textDecoration: 'none' }}>{l}</button>
+              <button style={{ background: 'transparent', border: 'none',fontSize: 13, color: '#4b5563', textDecoration: 'none' }}>{l}</button>
             </div>
           ))}
         </div>
 
         {/* Terms & Policies */}
         <div>
-          <div style={{ fontFamily: "Gerbil", fontSize: 14, fontWeight: 700, marginBottom: 16, display: 'inline-block', padding: '2px 8px', borderRadius: 4 }}>
+          <div style={{ background: 'transparent', border: 'none',fontFamily: "Gerbil", fontSize: 14, fontWeight: 700, marginBottom: 16, display: 'inline-block', padding: '2px 8px', borderRadius: 4 }}>
             Terms &amp; Policies
           </div>
           {['Privacy Policy', 'Terms & Conditions', 'Explore', 'Accessibility'].map(l => (
             <div key={l} style={{ marginBottom: 10 }}>
-              <button style={{ fontSize: 13, color: '#4b5563', textDecoration: 'none' }}>{l}</button>
+              <button style={{ background: 'transparent', border: 'none', fontSize: 13, color: '#4b5563', textDecoration: 'none' }}>{l}</button>
             </div>
           ))}
         </div>
@@ -155,7 +155,7 @@ export default function NewsletterFooter() {
           <div style={{ fontFamily: "Gerbil", fontSize: 14, fontWeight: 700, marginBottom: 16 }}>Follow Us</div>
           {['Instagram', 'LinkedIn', 'Youtube', 'Twitter'].map(l => (
             <div key={l} style={{ marginBottom: 10 }}>
-              <button style={{ fontSize: 13, color: '#4b5563', textDecoration: 'none' }}>{l}</button>
+              <button style={{ background: 'transparent', border: 'none', fontSize: 13, color: '#4b5563', textDecoration: 'none' }}>{l}</button>
             </div>
           ))}
         </div>
