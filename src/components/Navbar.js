@@ -11,13 +11,14 @@ const styles = {
   },
   logo: {
     fontFamily: "'Syne', sans-serif", fontSize: 22, fontWeight: 800,
-    color: '#0a0a0a', textDecoration: 'none',
+    color: '#0a0a0a', background: 'none', border: 'none', cursor: 'pointer', padding: 0,
   },
   links: {
     display: 'flex', gap: 36, listStyle: 'none',
   },
   link: {
     fontSize: 14, color: '#6b7280', textDecoration: 'none', cursor: 'pointer',
+    background: 'none', border: 'none', fontFamily: 'inherit',
   },
   hamburger: {
     display: 'flex', flexDirection: 'column', gap: 5,
@@ -52,15 +53,15 @@ export default function Navbar() {
 
   return (
     <nav style={styles.nav}>
-      <button style={styles.logo}>Elementum</button>
+      <button style={styles.logo} onClick={() => scrollTo('hero')}>Elementum</button>
 
       {!isMobile && (
         <ul style={styles.links}>
           {['hero','about','offerings','contact','faq'].map((id, i) => (
             <li key={id}>
-              <a style={styles.link} onClick={() => scrollTo(id)}>
+              <button style={styles.link} onClick={() => scrollTo(id)}>
                 {['Home','Studio','Services','Contact','FAQs'][i]}
-              </a>
+              </button>
             </li>
           ))}
         </ul>
@@ -77,9 +78,9 @@ export default function Navbar() {
       {isMobile && open && (
         <div style={styles.mobileMenu}>
           {['hero','about','offerings','contact','faq'].map((id, i) => (
-            <a key={id} style={styles.link} onClick={() => scrollTo(id)}>
+            <button key={id} style={styles.link} onClick={() => scrollTo(id)}>
               {['Home','Studio','Services','Contact','FAQs'][i]}
-            </a>
+            </button>
           ))}
         </div>
       )}
